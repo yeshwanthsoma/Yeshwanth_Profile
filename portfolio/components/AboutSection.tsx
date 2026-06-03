@@ -6,25 +6,25 @@ import FadeUp from "./FadeUp";
 const ABOUT_PARAGRAPHS = [
   <>
     Solution-driven Staff Software Engineer with{" "}
-    <span style={{ color: "#10b981", fontWeight: 600 }}>5+ years of professional experience</span>{" "}
+    <span style={{ color: "#f0f0f0", fontWeight: 600 }}>5+ years of professional experience</span>{" "}
     and a Master&apos;s degree in Business Analytics. I specialize in architecting enterprise-scale
     applications with advanced{" "}
-    <span style={{ color: "#10b981", fontWeight: 600 }}>AI/ML automation</span>, microservices, and
+    <span style={{ color: "#f0f0f0", fontWeight: 600 }}>AI/ML automation</span>, microservices, and
     cloud infrastructure.
   </>,
   <>
     I&apos;ve engineered intelligent agents using{" "}
-    <span style={{ color: "#10b981", fontWeight: 600 }}>LangGraph and LangChain</span>, built payment
+    <span style={{ color: "#f0f0f0", fontWeight: 600 }}>LangGraph and LangChain</span>, built payment
     platforms processing{" "}
-    <span style={{ color: "#10b981", fontWeight: 600 }}>25K+ transactions per minute</span>, and
+    <span style={{ color: "#f0f0f0", fontWeight: 600 }}>25K+ transactions per minute</span>, and
     led cross-functional engineering teams. My work spans from low-level distributed systems to
     high-level AI orchestration — always focused on eliminating manual overhead.
   </>,
   <>
     When I&apos;m not building systems at{" "}
-    <span style={{ color: "#10b981", fontWeight: 600 }}>Visa</span>, I&apos;m exploring multi-agent AI
+    <span style={{ color: "#f0f0f0", fontWeight: 600 }}>Visa</span>, I&apos;m exploring multi-agent AI
     architectures, full-stack applications, and developer tooling that makes engineers{" "}
-    <span style={{ color: "#10b981", fontWeight: 600 }}>10× more productive</span>.
+    <span style={{ color: "#f0f0f0", fontWeight: 600 }}>10× more productive</span>.
   </>,
 ];
 
@@ -147,7 +147,7 @@ export default function AboutSection() {
               style={{
                 fontSize: "0.7rem",
                 fontFamily: "var(--font-mono, monospace)",
-                color: "#10b981",
+                color: "#f0f0f0",
                 letterSpacing: "0.12em",
                 textTransform: "uppercase",
                 marginBottom: "1rem",
@@ -176,7 +176,7 @@ export default function AboutSection() {
                     <p style={{ color: "#ffffff", fontWeight: 600, fontSize: "0.875rem", lineHeight: 1.4, marginBottom: "0.25rem" }}>
                       {edu.degree}
                     </p>
-                    <p style={{ color: "#10b981", fontSize: "0.8rem", fontWeight: 500 }}>
+                    <p style={{ color: "#f0f0f0", fontSize: "0.8rem", fontWeight: 500 }}>
                       {edu.school}
                     </p>
                   </div>
@@ -185,7 +185,7 @@ export default function AboutSection() {
                       style={{
                         fontFamily: "var(--font-mono, monospace)",
                         fontSize: "0.7rem",
-                        color: "#10b981",
+                        color: "#f0f0f0",
                         fontWeight: 600,
                         marginBottom: "0.2rem",
                       }}
@@ -224,15 +224,15 @@ export default function AboutSection() {
                   width: "40px",
                   height: "40px",
                   borderRadius: "10px",
-                  background: "rgba(16,185,129,0.1)",
-                  border: "1px solid rgba(16,185,129,0.2)",
+                  background: "rgba(240,240,240,0.1)",
+                  border: "1px solid rgba(240,240,240,0.2)",
                   display: "flex",
                   alignItems: "center",
                   justifyContent: "center",
                   flexShrink: 0,
                 }}
               >
-                <Icon size={18} color="#10b981" strokeWidth={2} />
+                <Icon size={18} color="#f0f0f0" strokeWidth={2} />
               </div>
               <div>
                 <h3
@@ -280,14 +280,14 @@ export default function AboutSection() {
                   width: "44px",
                   height: "44px",
                   borderRadius: "12px",
-                  background: "rgba(16,185,129,0.1)",
-                  border: "1px solid rgba(16,185,129,0.2)",
+                  background: "rgba(240,240,240,0.1)",
+                  border: "1px solid rgba(240,240,240,0.2)",
                   display: "flex",
                   alignItems: "center",
                   justifyContent: "center",
                 }}
               >
-                <Icon size={20} color="#10b981" strokeWidth={2} />
+                <Icon size={20} color="#f0f0f0" strokeWidth={2} />
               </div>
               <p
                 style={{

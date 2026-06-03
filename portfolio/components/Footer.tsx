@@ -27,7 +27,7 @@ export default function Footer() {
             cursor: "pointer",
           }}
           onMouseEnter={(e) => {
-            (e.target as HTMLAnchorElement).style.color = "#10b981";
+            (e.target as HTMLAnchorElement).style.color = "#f0f0f0";
           }}
           onMouseLeave={(e) => {
             (e.target as HTMLAnchorElement).style.color = "#888888";

@@ -91,7 +91,7 @@ export default function Navbar({ scrollProgress }: NavbarProps) {
               style={{
                 fontWeight: 900,
                 fontSize: "1.25rem",
-                color: "#10b981",
+                color: "#f0f0f0",
                 letterSpacing: "-0.02em",
                 textDecoration: "none",
                 cursor: "pointer",
@@ -143,7 +143,7 @@ export default function Navbar({ scrollProgress }: NavbarProps) {
                 style={{
                   fontFamily: "var(--font-mono, monospace)",
                   fontSize: "0.8rem",
-                  color: "#10b981",
+                  color: "#f0f0f0",
                   fontWeight: 600,
                   minWidth: "2.5rem",
                   textAlign: "right",
@@ -235,7 +235,7 @@ export default function Navbar({ scrollProgress }: NavbarProps) {
                     transition: "color 0.2s ease",
                   }}
                   onMouseEnter={(e) => {
-                    (e.target as HTMLAnchorElement).style.color = "#10b981";
+                    (e.target as HTMLAnchorElement).style.color = "#f0f0f0";
                   }}
                   onMouseLeave={(e) => {
                     (e.target as HTMLAnchorElement).style.color = "#888888";

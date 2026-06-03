@@ -64,7 +64,7 @@ export default function HeroSection() {
 
         ctx.beginPath();
         ctx.arc(dot.x, dot.y, dot.radius, 0, Math.PI * 2);
-        ctx.fillStyle = `rgba(16, 185, 129, ${dot.opacity})`;
+        ctx.fillStyle = `rgba(240, 240, 240, ${dot.opacity})`;
         ctx.fill();
       }
 
@@ -122,7 +122,7 @@ export default function HeroSection() {
         style={{
           position: "absolute",
           inset: 0,
-          background: "radial-gradient(ellipse 80% 60% at 50% 50%, rgba(16,185,129,0.06) 0%, transparent 70%)",
+          background: "radial-gradient(ellipse 80% 60% at 50% 50%, rgba(240,240,240,0.06) 0%, transparent 70%)",
           pointerEvents: "none",
         }}
         aria-hidden="true"
@@ -177,7 +177,7 @@ export default function HeroSection() {
               width: "8px",
               height: "8px",
               borderRadius: "50%",
-              background: "#22c55e",
+              background: "#ffffff",
               boxShadow: "0 0 6px rgba(34,197,94,0.7)",
               flexShrink: 0,
             }} />
@@ -219,7 +219,7 @@ export default function HeroSection() {
               display: "block",
               fontSize: "clamp(3.5rem, 10vw, 6rem)",
               fontWeight: 900,
-              color: "#10b981",
+              color: "#f0f0f0",
               lineHeight: 1.0,
               letterSpacing: "-0.04em",
             }}
@@ -361,7 +361,7 @@ export default function HeroSection() {
           transition: "color 0.2s ease",
         }}
         onMouseEnter={(e) => {
-          (e.currentTarget as HTMLButtonElement).style.color = "#10b981";
+          (e.currentTarget as HTMLButtonElement).style.color = "#f0f0f0";
         }}
         onMouseLeave={(e) => {
           (e.currentTarget as HTMLButtonElement).style.color = "#4a4a4a";

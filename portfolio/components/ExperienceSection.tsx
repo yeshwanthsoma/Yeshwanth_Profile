@@ -103,7 +103,7 @@ export default function ExperienceSection() {
             top: 0,
             bottom: 0,
             width: "1px",
-            background: "linear-gradient(to bottom, #10b981, rgba(16,185,129,0.1))",
+            background: "linear-gradient(to bottom, #f0f0f0, rgba(240,240,240,0.1))",
           }}
           aria-hidden="true"
         />
@@ -121,8 +121,8 @@ export default function ExperienceSection() {
                     width: "9px",
                     height: "9px",
                     borderRadius: "50%",
-                    background: "#10b981",
-                    boxShadow: "0 0 8px rgba(16,185,129,0.6)",
+                    background: "#f0f0f0",
+                    boxShadow: "0 0 8px rgba(240,240,240,0.6)",
                     flexShrink: 0,
                   }}
                   aria-hidden="true"
@@ -162,7 +162,7 @@ export default function ExperienceSection() {
                             cursor: "pointer",
                           }}
                           onMouseEnter={(e) => {
-                            (e.currentTarget as HTMLAnchorElement).style.color = "#10b981";
+                            (e.currentTarget as HTMLAnchorElement).style.color = "#f0f0f0";
                           }}
                           onMouseLeave={(e) => {
                             (e.currentTarget as HTMLAnchorElement).style.color = "#ffffff";
@@ -184,9 +184,9 @@ export default function ExperienceSection() {
                       style={{
                         fontFamily: "var(--font-mono, monospace)",
                         fontSize: "0.72rem",
-                        color: "#10b981",
-                        background: "rgba(16,185,129,0.08)",
-                        border: "1px solid rgba(16,185,129,0.18)",
+                        color: "#f0f0f0",
+                        background: "rgba(240,240,240,0.08)",
+                        border: "1px solid rgba(240,240,240,0.18)",
                         borderRadius: "9999px",
                         padding: "0.25rem 0.75rem",
                         whiteSpace: "nowrap",
@@ -220,7 +220,7 @@ export default function ExperienceSection() {
                       >
                         <span
                           style={{
-                            color: "#10b981",
+                            color: "#f0f0f0",
                             flexShrink: 0,
                             marginTop: "0.35rem",
                             fontSize: "0.55rem",

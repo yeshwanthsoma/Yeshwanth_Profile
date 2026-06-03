@@ -85,8 +85,8 @@ export default function ProjectsSection() {
                       width: "44px",
                       height: "44px",
                       borderRadius: "10px",
-                      background: "rgba(16,185,129,0.1)",
-                      border: "1px solid rgba(16,185,129,0.2)",
+                      background: "rgba(240,240,240,0.1)",
+                      border: "1px solid rgba(240,240,240,0.2)",
                       display: "flex",
                       alignItems: "center",
                       justifyContent: "center",
@@ -97,7 +97,7 @@ export default function ProjectsSection() {
                       style={{
                         fontFamily: "var(--font-mono, monospace)",
                         fontSize: "0.75rem",
-                        color: "#10b981",
+                        color: "#f0f0f0",
                         fontWeight: 700,
                       }}
                     >
@@ -137,7 +137,7 @@ export default function ProjectsSection() {
                     cursor: "pointer",
                   }}
                   onMouseEnter={(e) => {
-                    (e.currentTarget as HTMLAnchorElement).style.color = "#10b981";
+                    (e.currentTarget as HTMLAnchorElement).style.color = "#f0f0f0";
                     (e.currentTarget as HTMLAnchorElement).style.transform = "translateY(-2px)";
                   }}
                   onMouseLeave={(e) => {
@@ -199,17 +199,17 @@ export default function ProjectsSection() {
                   gap: "0.3rem",
                   fontSize: "0.8rem",
                   fontFamily: "var(--font-mono, monospace)",
-                  color: "#10b981",
+                  color: "#f0f0f0",
                   textDecoration: "none",
                   marginBottom: "1.25rem",
                   transition: "color 0.2s ease",
                   cursor: "pointer",
                 }}
                 onMouseEnter={(e) => {
-                  (e.currentTarget as HTMLAnchorElement).style.color = "#34d399";
+                  (e.currentTarget as HTMLAnchorElement).style.color = "#ffffff";
                 }}
                 onMouseLeave={(e) => {
-                  (e.currentTarget as HTMLAnchorElement).style.color = "#10b981";
+                  (e.currentTarget as HTMLAnchorElement).style.color = "#f0f0f0";
                 }}
               >
                 {project.url.replace("https://www.", "").replace("https://", "")}

@@ -73,7 +73,7 @@ export default function SkillsSection() {
                 style={{
                   fontFamily: "var(--font-mono, monospace)",
                   fontSize: "0.65rem",
-                  color: "#10b981",
+                  color: "#f0f0f0",
                   letterSpacing: "0.12em",
                   textTransform: "uppercase",
                   fontWeight: 700,
